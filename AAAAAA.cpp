@@ -8,6 +8,11 @@ extern float f;
 
 int main()
 {
+	public void xuat(int x)
+	{
+		cout << a << endl;
+	}
+	
 	// Variable definition:
 	int a, b;
 	int c;
