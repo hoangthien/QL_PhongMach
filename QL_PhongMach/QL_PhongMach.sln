@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{9060493C-67D6-4691-9031-9223BA3C9C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "BUS\BUS.csproj", "{DFCA06A8-E6C5-4851-B87D-4E328E33230E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{A464D8BE-4B59-45DD-B256-53EBA152E0D8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9060493C-67D6-4691-9031-9223BA3C9C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9060493C-67D6-4691-9031-9223BA3C9C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9060493C-67D6-4691-9031-9223BA3C9C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9060493C-67D6-4691-9031-9223BA3C9C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCA06A8-E6C5-4851-B87D-4E328E33230E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCA06A8-E6C5-4851-B87D-4E328E33230E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCA06A8-E6C5-4851-B87D-4E328E33230E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCA06A8-E6C5-4851-B87D-4E328E33230E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A464D8BE-4B59-45DD-B256-53EBA152E0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A464D8BE-4B59-45DD-B256-53EBA152E0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A464D8BE-4B59-45DD-B256-53EBA152E0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A464D8BE-4B59-45DD-B256-53EBA152E0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
