@@ -7,6 +7,11 @@ int main()
 	public void Nhap()
 	{
 		cin >> a;
+=======
+	public void Xuat()
+	{
+		cout << f;
+>>>>>>> Stashed changes
 	}
 	
 	public int Contructor()
