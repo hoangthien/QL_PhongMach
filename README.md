@@ -1,10 +1,12 @@
 # QL_PhongMach
 Đồ Án Môn Phất triển, vận hành và bảo trì phần mềm
 Danh sác thành viên:
-Hoàng Xuân Thiên
-Trần Bình Minh
-Nguyễn Minh Lộc
-Nguyễn Trí
+Nhóm trưởng: Hoàng Xuân Thiên
+Nhóm G07.
+- Hoàng Xuân Thiên   12520411
+- Nguyễn Minh Lộc    12520235
+- Nguyễn Trí         12520456
+- Trần Bình Minh     12520263
 
 1. Công việc
 - Phân tích yêu cầu cần sửa đổi và nâng cấp
