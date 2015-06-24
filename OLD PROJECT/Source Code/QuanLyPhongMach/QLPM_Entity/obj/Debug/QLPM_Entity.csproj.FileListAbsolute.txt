@@ -1,0 +1,5 @@
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_Entity\bin\Debug\QLPM_Entity.dll
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_Entity\bin\Debug\QLPM_Entity.pdb
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_Entity\obj\Debug\QLPM_Entity.csprojResolveAssemblyReference.cache
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_Entity\obj\Debug\QLPM_Entity.dll
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_Entity\obj\Debug\QLPM_Entity.pdb

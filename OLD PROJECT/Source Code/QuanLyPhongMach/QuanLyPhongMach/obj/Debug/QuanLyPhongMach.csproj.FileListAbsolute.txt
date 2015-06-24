@@ -1,0 +1,51 @@
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QuanLyPhongMach.exe.config
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QuanLyPhongMach.exe
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QuanLyPhongMach.pdb
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_BUS.dll
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_Entity.dll
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_DAL.dll
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_BUS.pdb
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_Entity.pdb
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_DAL.pdb
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.csprojResolveAssemblyReference.cache
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_BaoCaoDoanhThu.resources
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_BenhNhan.resources
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_DSBenhNhan.resources
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_HoaDon.resources
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_NhapThuoc.resources
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_PhieuKham.resources
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.Properties.Resources.resources
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.csproj.GenerateResource.Cache
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.exe
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.pdb
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.Form1.resources
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_SuaQuyDinh.resources
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_BCThuoc.resources
+C:\Users\LKuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_BCNhapThuoc.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QuanLyPhongMach.exe.config
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.exe
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.pdb
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QuanLyPhongMach.exe
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QuanLyPhongMach.pdb
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_BUS.dll
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_Entity.dll
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_DAL.dll
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_BUS.pdb
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_Entity.pdb
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QLPM_DAL.pdb
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.csprojResolveAssemblyReference.cache
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.Form1.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_BaoCaoDoanhThu.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_BCNhapThuoc.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_BCThuoc.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_BenhNhan.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_DSBenhNhan.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_HoaDon.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_NhapThuoc.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_PhieuKham.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.GUI_SuaQuyDinh.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.Properties.Resources.resources
+C:\Users\LKuan_000\Desktop\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.csproj.GenerateResource.Cache
+C:\Users\LKuan_000\Desktop\Source Code\QuanLyPhongMach\QuanLyPhongMach\bin\Debug\QuanLyPhongMach.exe.config
+C:\Users\LKuan_000\Desktop\Source Code\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.exe
+C:\Users\LKuan_000\Desktop\Source Code\QuanLyPhongMach\QuanLyPhongMach\obj\Debug\QuanLyPhongMach.pdb

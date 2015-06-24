@@ -1,0 +1,7 @@
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_DAL\bin\Debug\QLPM_DAL.dll
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_DAL\bin\Debug\QLPM_DAL.pdb
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_DAL\bin\Debug\QLPM_Entity.dll
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_DAL\bin\Debug\QLPM_Entity.pdb
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_DAL\obj\Debug\QLPM_DAL.csprojResolveAssemblyReference.cache
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_DAL\obj\Debug\QLPM_DAL.dll
+c:\users\lkuan_000\documents\visual studio 2012\Projects\QuanLyPhongMach\QLPM_DAL\obj\Debug\QLPM_DAL.pdb
