@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace QLPhongMach
 {
@@ -30,6 +31,8 @@ namespace QLPhongMach
                         f.btnQLNguoiDung.Enabled = true;
                         f.btnSuDungThuoc.Enabled = true;
                         f.btnDoanhThu.Enabled = true;
+                        f.btnBackup.Enabled = true;
+                        f.btnRestore.Enabled = true;
                         f.btBenhNhan.Enabled = true;
                         f.btnPhieuKham.Enabled = true;
                         f.btnHoaDonThanhToan.Enabled = true;
@@ -46,6 +49,8 @@ namespace QLPhongMach
                         f.btnQLNguoiDung.Enabled = false;
                         f.btnSuDungThuoc.Enabled = false;
                         f.btnDoanhThu.Enabled = false;
+                        f.btnBackup.Enabled = false;
+                        f.btnRestore.Enabled = false;
                         f.btBenhNhan.Enabled = true;
                         f.btnPhieuKham.Enabled = true;
                         f.btnHoaDonThanhToan.Enabled = true;
@@ -62,6 +67,8 @@ namespace QLPhongMach
                         f.btnQLNguoiDung.Enabled = false;
                         f.btnSuDungThuoc.Enabled = false;
                         f.btnDoanhThu.Enabled = false;
+                        f.btnBackup.Enabled = false;
+                        f.btnRestore.Enabled = false;
                         f.btBenhNhan.Enabled = false;
                         f.btnPhieuKham.Enabled = false;
                         f.btnHoaDonThanhToan.Enabled = false;
@@ -197,6 +204,46 @@ namespace QLPhongMach
             frmQLNguoiDung frm = new frmQLNguoiDung();
             frm.MdiParent = this;
             frm.Show();
+        }
+
+        private void btnBackup_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string sqlBackup = "BACKUP DATABASE [QLPhongMach] TO DISK='G:\\backupQLPhongMach.bak'";
+                SqlConnection con = new SqlConnection("Data Source=THIEN\\SQLEXPRESS;Initial Catalog=QLPhongMach;Integrated Security=True");
+                con.Open();
+                SqlCommand cmd = new SqlCommand(sqlBackup, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show("Đã backup cơ sở dữ liệu");
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message, "Backup Database");
+                return;
+            }
+        }
+
+        private void btnRestore_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string path = "G:\\backupQLPhongMach.bak";
+                string sqlRestore = "Use master Restore Database [QLPhongMach] from disk='" + path + "'";
+                SqlConnection con = new SqlConnection("Data Source=THIEN\\SQLEXPRESS;Initial Catalog=QLPhongMach;Integrated Security=True");
+                con.Open();
+
+                SqlCommand cmd = new SqlCommand(sqlRestore, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show("Database da duoc restore ");
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message, "Restore Database");
+                return;
+            }
         }
     }
 }
