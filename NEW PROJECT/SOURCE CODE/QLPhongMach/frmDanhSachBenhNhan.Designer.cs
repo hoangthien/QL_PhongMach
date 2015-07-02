@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDanhSachBenhNhan));
             this.label3 = new System.Windows.Forms.Label();
             this.dtpNgayKham = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,7 +48,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(371, 21);
+            this.label3.Location = new System.Drawing.Point(318, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(321, 31);
             this.label3.TabIndex = 8;
@@ -57,7 +58,7 @@
             // 
             this.dtpNgayKham.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNgayKham.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNgayKham.Location = new System.Drawing.Point(478, 80);
+            this.dtpNgayKham.Location = new System.Drawing.Point(425, 68);
             this.dtpNgayKham.Name = "dtpNgayKham";
             this.dtpNgayKham.Size = new System.Drawing.Size(200, 26);
             this.dtpNgayKham.TabIndex = 7;
@@ -67,7 +68,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(357, 80);
+            this.label2.Location = new System.Drawing.Point(304, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 20);
             this.label2.TabIndex = 6;
@@ -80,7 +81,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 121);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1033, 299);
+            this.groupBox1.Size = new System.Drawing.Size(938, 299);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách bệnh nhân";
@@ -98,7 +99,7 @@
             this.dgvDSBenhNhan.Location = new System.Drawing.Point(3, 22);
             this.dgvDSBenhNhan.Name = "dgvDSBenhNhan";
             this.dgvDSBenhNhan.ReadOnly = true;
-            this.dgvDSBenhNhan.Size = new System.Drawing.Size(1027, 274);
+            this.dgvDSBenhNhan.Size = new System.Drawing.Size(932, 274);
             this.dgvDSBenhNhan.TabIndex = 0;
             // 
             // STT
@@ -146,13 +147,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1033, 420);
+            this.ClientSize = new System.Drawing.Size(938, 420);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dtpNgayKham);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.groupBox1);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "frmDanhSachBenhNhan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Tra cứu bệnh nhân";

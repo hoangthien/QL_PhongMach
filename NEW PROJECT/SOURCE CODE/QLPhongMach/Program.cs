@@ -15,7 +15,9 @@ namespace QLPhongMach
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AAAAAAAAAAAAAAAA());
+            Application.Run(new FRMMAINMENU());
         }
+
+        ///http://convertico.com/
     }
 }

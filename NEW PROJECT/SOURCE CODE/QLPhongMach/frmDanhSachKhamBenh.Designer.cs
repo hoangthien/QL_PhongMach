@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDanhSachKhamBenh));
             this.label7 = new System.Windows.Forms.Label();
             this.dtpNgayKham = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
@@ -81,7 +82,7 @@
             this.dtpNgayKham.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNgayKham.ForeColor = System.Drawing.Color.Black;
             this.dtpNgayKham.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNgayKham.Location = new System.Drawing.Point(110, 59);
+            this.dtpNgayKham.Location = new System.Drawing.Point(111, 83);
             this.dtpNgayKham.Name = "dtpNgayKham";
             this.dtpNgayKham.Size = new System.Drawing.Size(200, 26);
             this.dtpNgayKham.TabIndex = 12;
@@ -93,7 +94,7 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(7, 62);
+            this.label2.Location = new System.Drawing.Point(8, 86);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 20);
             this.label2.TabIndex = 13;
@@ -104,7 +105,7 @@
             this.numSLBN.BackColor = System.Drawing.Color.White;
             this.numSLBN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numSLBN.ForeColor = System.Drawing.Color.Black;
-            this.numSLBN.Location = new System.Drawing.Point(662, 65);
+            this.numSLBN.Location = new System.Drawing.Point(586, 80);
             this.numSLBN.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -163,7 +164,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(353, 68);
+            this.label6.Location = new System.Drawing.Point(353, 60);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(57, 20);
             this.label6.TabIndex = 17;
@@ -182,9 +183,9 @@
             // 
             this.txtDiaChi.BackColor = System.Drawing.Color.White;
             this.txtDiaChi.ForeColor = System.Drawing.Color.Black;
-            this.txtDiaChi.Location = new System.Drawing.Point(430, 62);
+            this.txtDiaChi.Location = new System.Drawing.Point(430, 54);
             this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(354, 26);
+            this.txtDiaChi.Size = new System.Drawing.Size(211, 26);
             this.txtDiaChi.TabIndex = 2;
             // 
             // ckbGioiTinh
@@ -193,7 +194,7 @@
             this.ckbGioiTinh.BackColor = System.Drawing.Color.White;
             this.ckbGioiTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbGioiTinh.ForeColor = System.Drawing.Color.Black;
-            this.ckbGioiTinh.Location = new System.Drawing.Point(28, 68);
+            this.ckbGioiTinh.Location = new System.Drawing.Point(12, 59);
             this.ckbGioiTinh.Name = "ckbGioiTinh";
             this.ckbGioiTinh.Size = new System.Drawing.Size(61, 24);
             this.ckbGioiTinh.TabIndex = 3;
@@ -225,9 +226,9 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
-            this.groupBox2.Location = new System.Drawing.Point(6, 94);
+            this.groupBox2.Location = new System.Drawing.Point(7, 118);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(800, 121);
+            this.groupBox2.Size = new System.Drawing.Size(650, 121);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin bệnh nhân";
@@ -238,7 +239,7 @@
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(404, 65);
+            this.label4.Location = new System.Drawing.Point(348, 88);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(231, 20);
             this.label4.TabIndex = 15;
@@ -253,9 +254,9 @@
             this.groupBox1.Controls.Add(this.btnThem);
             this.groupBox1.Controls.Add(this.btnSua);
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(812, 59);
+            this.groupBox1.Location = new System.Drawing.Point(664, 59);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(218, 198);
+            this.groupBox1.Size = new System.Drawing.Size(210, 198);
             this.groupBox1.TabIndex = 50;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chức năng";
@@ -334,7 +335,7 @@
             this.groupBox3.ForeColor = System.Drawing.Color.Black;
             this.groupBox3.Location = new System.Drawing.Point(0, 258);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1033, 278);
+            this.groupBox3.Size = new System.Drawing.Size(874, 278);
             this.groupBox3.TabIndex = 51;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Danh sách bệnh nhân";
@@ -352,7 +353,7 @@
             this.dgvDSBenhNhan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDSBenhNhan.Location = new System.Drawing.Point(3, 22);
             this.dgvDSBenhNhan.Name = "dgvDSBenhNhan";
-            this.dgvDSBenhNhan.Size = new System.Drawing.Size(1027, 253);
+            this.dgvDSBenhNhan.Size = new System.Drawing.Size(868, 253);
             this.dgvDSBenhNhan.TabIndex = 0;
             this.dgvDSBenhNhan.CurrentCellChanged += new System.EventHandler(this.dgvDSBenhNhan_CurrentCellChanged);
             // 
@@ -408,7 +409,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1033, 536);
+            this.ClientSize = new System.Drawing.Size(874, 536);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.numSLBN);
@@ -419,7 +420,9 @@
             this.Controls.Add(this.label7);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "frmDanhSachKhamBenh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Danh sách khám bệnh";

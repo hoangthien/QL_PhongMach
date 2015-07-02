@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHoaDonThanhToan));
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.lblThongBao = new System.Windows.Forms.Label();
@@ -48,7 +49,7 @@
             this.btnThoat.BackColor = System.Drawing.Color.White;
             this.btnThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnThoat.ForeColor = System.Drawing.Color.Black;
-            this.btnThoat.Location = new System.Drawing.Point(348, 187);
+            this.btnThoat.Location = new System.Drawing.Point(426, 188);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(98, 28);
             this.btnThoat.TabIndex = 3;
@@ -60,7 +61,7 @@
             // 
             this.btnLuu.BackColor = System.Drawing.Color.White;
             this.btnLuu.ForeColor = System.Drawing.Color.Black;
-            this.btnLuu.Location = new System.Drawing.Point(183, 187);
+            this.btnLuu.Location = new System.Drawing.Point(261, 188);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(98, 28);
             this.btnLuu.TabIndex = 2;
@@ -74,7 +75,7 @@
             this.lblThongBao.BackColor = System.Drawing.Color.White;
             this.lblThongBao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThongBao.ForeColor = System.Drawing.Color.Black;
-            this.lblThongBao.Location = new System.Drawing.Point(299, 151);
+            this.lblThongBao.Location = new System.Drawing.Point(377, 152);
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(14, 20);
             this.lblThongBao.TabIndex = 26;
@@ -137,7 +138,7 @@
             this.dtpNgayKham.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpNgayKham.Location = new System.Drawing.Point(479, 74);
             this.dtpNgayKham.Name = "dtpNgayKham";
-            this.dtpNgayKham.Size = new System.Drawing.Size(200, 26);
+            this.dtpNgayKham.Size = new System.Drawing.Size(254, 26);
             this.dtpNgayKham.TabIndex = 18;
             // 
             // txtTienThuoc
@@ -148,7 +149,7 @@
             this.txtTienThuoc.Location = new System.Drawing.Point(479, 119);
             this.txtTienThuoc.Name = "txtTienThuoc";
             this.txtTienThuoc.ReadOnly = true;
-            this.txtTienThuoc.Size = new System.Drawing.Size(200, 26);
+            this.txtTienThuoc.Size = new System.Drawing.Size(254, 26);
             this.txtTienThuoc.TabIndex = 19;
             // 
             // txtTienKham
@@ -158,7 +159,7 @@
             this.txtTienKham.ForeColor = System.Drawing.Color.Black;
             this.txtTienKham.Location = new System.Drawing.Point(92, 115);
             this.txtTienKham.Name = "txtTienKham";
-            this.txtTienKham.Size = new System.Drawing.Size(192, 26);
+            this.txtTienKham.Size = new System.Drawing.Size(288, 26);
             this.txtTienKham.TabIndex = 16;
             // 
             // txtHoTen
@@ -194,7 +195,7 @@
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(160, 9);
+            this.label3.Location = new System.Drawing.Point(210, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(344, 31);
             this.label3.TabIndex = 20;
@@ -206,7 +207,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnThoat;
-            this.ClientSize = new System.Drawing.Size(696, 237);
+            this.ClientSize = new System.Drawing.Size(767, 237);
             this.Controls.Add(this.lblThongBao);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -222,9 +223,9 @@
             this.Controls.Add(this.btnLuu);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "frmHoaDonThanhToan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hóa đơn thanh toán";

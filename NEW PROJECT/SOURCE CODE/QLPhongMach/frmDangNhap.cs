@@ -31,11 +31,10 @@ namespace QLPhongMach
                 ChiTietNguoiDung nd = NguoiDung.KTDangNhap(txtNguoiDung.Text.Trim(), MatKhau);
                 if (nd != null)
                 {
-
                     PhanQuyen.TenDangNhap = nd.TenDangNhap;
                     PhanQuyen.ChucVu = nd.ChucVu;
-                    MessageBox.Show("Đăng nhập thành công");
-                    frmMain f = new frmMain();
+                    //MessageBox.Show("Đăng nhập thành công");
+                    FRMMAINMENU f = new FRMMAINMENU();
                     f.OnOff(this.ParentForm);
                     //this.DialogResult = DialogResult.OK;////Luu lại kết quả để form chính gọi
                     this.Close();
@@ -76,8 +75,8 @@ namespace QLPhongMach
 
                         PhanQuyen.TenDangNhap = nd.TenDangNhap;
                         PhanQuyen.ChucVu = nd.ChucVu;
-                        MessageBox.Show("Đăng nhập thành công");
-                        frmMain f = new frmMain();
+                        //MessageBox.Show("Đăng nhập thành công");
+                        FRMMAINMENU f = new FRMMAINMENU();
                         f.OnOff(this.ParentForm);
                         //this.DialogResult = DialogResult.OK;////Luu lại kết quả để form chính gọi
                         this.Close();

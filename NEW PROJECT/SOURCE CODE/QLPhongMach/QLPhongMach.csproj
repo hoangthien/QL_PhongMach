@@ -17,6 +17,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -29,7 +30,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -50,6 +50,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>QLPhongMach.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
@@ -64,6 +67,7 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
@@ -81,11 +85,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AAAAAAAAAAAAAAAA.cs">
+    <Compile Include="frmAbout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AAAAAAAAAAAAAAAA.Designer.cs">
-      <DependentUpon>AAAAAAAAAAAAAAAA.cs</DependentUpon>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMMAINMENU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMMAINMENU.Designer.cs">
+      <DependentUpon>FRMMAINMENU.cs</DependentUpon>
     </Compile>
     <Compile Include="DataAccess\BaoCaoThuoc.cs" />
     <Compile Include="DataTransferObject\ChiTietBaoCaoThuoc.cs" />
@@ -164,12 +174,6 @@
     <Compile Include="frmHuongDanSuDung.Designer.cs">
       <DependentUpon>frmHuongDanSuDung.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
-    </Compile>
     <Compile Include="PhanQuyen.cs" />
     <Compile Include="frmPhieuKhamBenh.cs">
       <SubType>Form</SubType>
@@ -185,8 +189,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AAAAAAAAAAAAAAAA.resx">
-      <DependentUpon>AAAAAAAAAAAAAAAA.cs</DependentUpon>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMMAINMENU.resx">
+      <DependentUpon>FRMMAINMENU.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBaoCao.resx">
       <DependentUpon>frmBaoCao.cs</DependentUpon>
@@ -217,9 +224,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmHuongDanSuDung.resx">
       <DependentUpon>frmHuongDanSuDung.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPhieuKhamBenh.resx">
       <DependentUpon>frmPhieuKhamBenh.cs</DependentUpon>
@@ -305,6 +309,48 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DangXuat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thoat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoiMatKhau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoiThongTinCaNhan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhieuKham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BenhNhan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HuongDanSuDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thuoc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToaThuoc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BaoCaoSuDoanhThu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BaoCaoSuDungThuoc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DangNhap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TraCuu.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

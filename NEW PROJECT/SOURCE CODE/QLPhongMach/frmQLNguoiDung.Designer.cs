@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQLNguoiDung));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -73,7 +74,7 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(397, 31);
+            this.label1.Location = new System.Drawing.Point(337, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(284, 31);
             this.label1.TabIndex = 43;
@@ -107,7 +108,7 @@
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(0, 88);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(810, 218);
+            this.groupBox2.Size = new System.Drawing.Size(681, 218);
             this.groupBox2.TabIndex = 44;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin người dùng";
@@ -117,7 +118,7 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(675, 105);
+            this.label12.Location = new System.Drawing.Point(644, 109);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(25, 20);
             this.label12.TabIndex = 22;
@@ -214,7 +215,7 @@
             this.txtMatKhau.Location = new System.Drawing.Point(477, 103);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
-            this.txtMatKhau.Size = new System.Drawing.Size(192, 26);
+            this.txtMatKhau.Size = new System.Drawing.Size(160, 26);
             this.txtMatKhau.TabIndex = 14;
             // 
             // txtTenDangNhap
@@ -265,7 +266,7 @@
             this.txtDiaChi.ForeColor = System.Drawing.Color.Black;
             this.txtDiaChi.Location = new System.Drawing.Point(477, 28);
             this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(236, 26);
+            this.txtDiaChi.Size = new System.Drawing.Size(192, 26);
             this.txtDiaChi.TabIndex = 9;
             // 
             // txtTenNguoiDung
@@ -350,9 +351,9 @@
             this.groupBox1.Controls.Add(this.btnThem);
             this.groupBox1.Controls.Add(this.btnSua);
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(816, 87);
+            this.groupBox1.Location = new System.Drawing.Point(687, 96);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(218, 219);
+            this.groupBox1.Size = new System.Drawing.Size(209, 210);
             this.groupBox1.TabIndex = 50;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chức năng";
@@ -429,9 +430,9 @@
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Black;
-            this.groupBox3.Location = new System.Drawing.Point(0, 321);
+            this.groupBox3.Location = new System.Drawing.Point(0, 312);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1033, 248);
+            this.groupBox3.Size = new System.Drawing.Size(909, 257);
             this.groupBox3.TabIndex = 51;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Danh sách người dùng";
@@ -443,7 +444,7 @@
             this.dgvDSNguoiDung.Location = new System.Drawing.Point(3, 22);
             this.dgvDSNguoiDung.Name = "dgvDSNguoiDung";
             this.dgvDSNguoiDung.ReadOnly = true;
-            this.dgvDSNguoiDung.Size = new System.Drawing.Size(1027, 223);
+            this.dgvDSNguoiDung.Size = new System.Drawing.Size(903, 232);
             this.dgvDSNguoiDung.TabIndex = 0;
             // 
             // frmQLNguoiDung
@@ -451,14 +452,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1033, 569);
+            this.ClientSize = new System.Drawing.Size(909, 569);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "frmQLNguoiDung";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Quản lý người dùng";

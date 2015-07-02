@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPhieuKhamBenh));
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cbxHoTen = new System.Windows.Forms.ComboBox();
@@ -64,7 +65,7 @@
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(323, 37);
+            this.label6.Location = new System.Drawing.Point(167, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(281, 31);
             this.label6.TabIndex = 18;
@@ -85,7 +86,7 @@
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(1, 71);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(726, 217);
+            this.groupBox2.Size = new System.Drawing.Size(358, 217);
             this.groupBox2.TabIndex = 19;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Phiếu khám";
@@ -96,9 +97,9 @@
             this.cbxHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxHoTen.ForeColor = System.Drawing.Color.Black;
             this.cbxHoTen.FormattingEnabled = true;
-            this.cbxHoTen.Location = new System.Drawing.Point(117, 21);
+            this.cbxHoTen.Location = new System.Drawing.Point(104, 21);
             this.cbxHoTen.Name = "cbxHoTen";
-            this.cbxHoTen.Size = new System.Drawing.Size(234, 28);
+            this.cbxHoTen.Size = new System.Drawing.Size(228, 28);
             this.cbxHoTen.TabIndex = 18;
             this.cbxHoTen.SelectedIndexChanged += new System.EventHandler(this.cbxHoTen_SelectedIndexChanged);
             // 
@@ -108,7 +109,7 @@
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(368, 24);
+            this.label5.Location = new System.Drawing.Point(13, 127);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(88, 20);
             this.label5.TabIndex = 17;
@@ -120,7 +121,7 @@
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(368, 56);
+            this.label4.Location = new System.Drawing.Point(16, 174);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(138, 20);
             this.label4.TabIndex = 16;
@@ -132,9 +133,9 @@
             this.dtpNgayKham.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNgayKham.ForeColor = System.Drawing.Color.Black;
             this.dtpNgayKham.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNgayKham.Location = new System.Drawing.Point(510, 18);
+            this.dtpNgayKham.Location = new System.Drawing.Point(104, 121);
             this.dtpNgayKham.Name = "dtpNgayKham";
-            this.dtpNgayKham.Size = new System.Drawing.Size(200, 26);
+            this.dtpNgayKham.Size = new System.Drawing.Size(228, 26);
             this.dtpNgayKham.TabIndex = 15;
             this.dtpNgayKham.ValueChanged += new System.EventHandler(this.dtpNgayKham_ValueChanged);
             // 
@@ -143,19 +144,19 @@
             this.txtLoaiBenh.BackColor = System.Drawing.Color.White;
             this.txtLoaiBenh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLoaiBenh.ForeColor = System.Drawing.Color.Black;
-            this.txtLoaiBenh.Location = new System.Drawing.Point(512, 53);
+            this.txtLoaiBenh.Location = new System.Drawing.Point(160, 168);
             this.txtLoaiBenh.Name = "txtLoaiBenh";
-            this.txtLoaiBenh.Size = new System.Drawing.Size(197, 26);
+            this.txtLoaiBenh.Size = new System.Drawing.Size(172, 26);
             this.txtLoaiBenh.TabIndex = 14;
             // 
             // txtTrieuChung
             // 
             this.txtTrieuChung.BackColor = System.Drawing.Color.White;
             this.txtTrieuChung.ForeColor = System.Drawing.Color.Black;
-            this.txtTrieuChung.Location = new System.Drawing.Point(117, 55);
+            this.txtTrieuChung.Location = new System.Drawing.Point(104, 55);
             this.txtTrieuChung.Multiline = true;
             this.txtTrieuChung.Name = "txtTrieuChung";
-            this.txtTrieuChung.Size = new System.Drawing.Size(234, 53);
+            this.txtTrieuChung.Size = new System.Drawing.Size(228, 53);
             this.txtTrieuChung.TabIndex = 13;
             // 
             // label3
@@ -191,9 +192,9 @@
             this.colDonVi,
             this.colSoLuong,
             this.colCachDung});
-            this.dgvToaThuoc.Location = new System.Drawing.Point(6, 26);
+            this.dgvToaThuoc.Location = new System.Drawing.Point(6, 32);
             this.dgvToaThuoc.Name = "dgvToaThuoc";
-            this.dgvToaThuoc.Size = new System.Drawing.Size(930, 182);
+            this.dgvToaThuoc.Size = new System.Drawing.Size(617, 182);
             this.dgvToaThuoc.TabIndex = 20;
             // 
             // STT
@@ -244,9 +245,9 @@
             this.groupBox1.Controls.Add(this.btnThem);
             this.groupBox1.Controls.Add(this.btnSua);
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(736, 71);
+            this.groupBox1.Location = new System.Drawing.Point(365, 71);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(218, 219);
+            this.groupBox1.Size = new System.Drawing.Size(205, 219);
             this.groupBox1.TabIndex = 51;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chức năng";
@@ -347,13 +348,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(962, 511);
+            this.ClientSize = new System.Drawing.Size(579, 511);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label6);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "frmPhieuKhamBenh";

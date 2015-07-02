@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBaoCaoThuoc));
             this.btnBC = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cbxThang = new System.Windows.Forms.ComboBox();
@@ -45,7 +46,7 @@
             // 
             this.btnBC.BackColor = System.Drawing.Color.White;
             this.btnBC.ForeColor = System.Drawing.Color.Black;
-            this.btnBC.Location = new System.Drawing.Point(692, 53);
+            this.btnBC.Location = new System.Drawing.Point(582, 53);
             this.btnBC.Name = "btnBC";
             this.btnBC.Size = new System.Drawing.Size(141, 30);
             this.btnBC.TabIndex = 19;
@@ -59,7 +60,7 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(162, 63);
+            this.label1.Location = new System.Drawing.Point(52, 63);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 20);
@@ -85,7 +86,7 @@
             "10",
             "11",
             "12"});
-            this.cbxThang.Location = new System.Drawing.Point(234, 59);
+            this.cbxThang.Location = new System.Drawing.Point(124, 59);
             this.cbxThang.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbxThang.Name = "cbxThang";
             this.cbxThang.Size = new System.Drawing.Size(180, 28);
@@ -98,7 +99,7 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(471, 63);
+            this.label2.Location = new System.Drawing.Point(361, 63);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 20);
@@ -110,7 +111,7 @@
             this.numNam.BackColor = System.Drawing.Color.White;
             this.numNam.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numNam.ForeColor = System.Drawing.Color.Black;
-            this.numNam.Location = new System.Drawing.Point(535, 60);
+            this.numNam.Location = new System.Drawing.Point(425, 60);
             this.numNam.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numNam.Maximum = new decimal(new int[] {
             3000,
@@ -138,7 +139,7 @@
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(277, 9);
+            this.label3.Location = new System.Drawing.Point(167, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(396, 31);
             this.label3.TabIndex = 20;
@@ -153,7 +154,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(0, 104);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1033, 417);
+            this.groupBox1.Size = new System.Drawing.Size(767, 417);
             this.groupBox1.TabIndex = 25;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách thuốc sử dụng";
@@ -165,7 +166,7 @@
             this.dgvDSThuoc.Location = new System.Drawing.Point(3, 22);
             this.dgvDSThuoc.Name = "dgvDSThuoc";
             this.dgvDSThuoc.ReadOnly = true;
-            this.dgvDSThuoc.Size = new System.Drawing.Size(1027, 392);
+            this.dgvDSThuoc.Size = new System.Drawing.Size(761, 392);
             this.dgvDSThuoc.TabIndex = 0;
             // 
             // frmBaoCaoThuoc
@@ -173,7 +174,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1033, 521);
+            this.ClientSize = new System.Drawing.Size(767, 521);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbxThang);
@@ -183,7 +184,9 @@
             this.Controls.Add(this.btnBC);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "frmBaoCaoThuoc";
             this.Text = "Báo cáo sử dụng thuốc";
             this.Load += new System.EventHandler(this.frmBaoCaoThuoc_Load);

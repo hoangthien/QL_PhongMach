@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmThemToaThuoc));
             this.btnThem = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             this.txtDonVi = new System.Windows.Forms.TextBox();
@@ -45,7 +46,7 @@
             // 
             this.btnThem.BackColor = System.Drawing.Color.White;
             this.btnThem.ForeColor = System.Drawing.Color.Black;
-            this.btnThem.Location = new System.Drawing.Point(144, 312);
+            this.btnThem.Location = new System.Drawing.Point(118, 277);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(103, 32);
             this.btnThem.TabIndex = 0;
@@ -58,7 +59,7 @@
             this.btnThoat.BackColor = System.Drawing.Color.White;
             this.btnThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnThoat.ForeColor = System.Drawing.Color.Black;
-            this.btnThoat.Location = new System.Drawing.Point(314, 312);
+            this.btnThoat.Location = new System.Drawing.Point(259, 277);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(107, 32);
             this.btnThoat.TabIndex = 1;
@@ -70,10 +71,10 @@
             // 
             this.txtDonVi.BackColor = System.Drawing.Color.White;
             this.txtDonVi.ForeColor = System.Drawing.Color.Black;
-            this.txtDonVi.Location = new System.Drawing.Point(144, 62);
+            this.txtDonVi.Location = new System.Drawing.Point(129, 62);
             this.txtDonVi.Name = "txtDonVi";
             this.txtDonVi.ReadOnly = true;
-            this.txtDonVi.Size = new System.Drawing.Size(145, 26);
+            this.txtDonVi.Size = new System.Drawing.Size(245, 26);
             this.txtDonVi.TabIndex = 16;
             // 
             // label4
@@ -120,27 +121,27 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(47, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 17);
+            this.label1.Size = new System.Drawing.Size(73, 17);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Thuốc";
+            this.label1.Text = "TênThuốc";
             // 
             // txtCachDung
             // 
             this.txtCachDung.BackColor = System.Drawing.Color.White;
             this.txtCachDung.ForeColor = System.Drawing.Color.Black;
-            this.txtCachDung.Location = new System.Drawing.Point(144, 151);
+            this.txtCachDung.Location = new System.Drawing.Point(129, 151);
             this.txtCachDung.Multiline = true;
             this.txtCachDung.Name = "txtCachDung";
-            this.txtCachDung.Size = new System.Drawing.Size(377, 82);
+            this.txtCachDung.Size = new System.Drawing.Size(245, 78);
             this.txtCachDung.TabIndex = 11;
             // 
             // txtSoLuong
             // 
             this.txtSoLuong.BackColor = System.Drawing.Color.White;
             this.txtSoLuong.ForeColor = System.Drawing.Color.Black;
-            this.txtSoLuong.Location = new System.Drawing.Point(144, 105);
+            this.txtSoLuong.Location = new System.Drawing.Point(129, 105);
             this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(145, 26);
+            this.txtSoLuong.Size = new System.Drawing.Size(245, 26);
             this.txtSoLuong.TabIndex = 10;
             // 
             // cbxThuoc
@@ -148,9 +149,9 @@
             this.cbxThuoc.BackColor = System.Drawing.Color.White;
             this.cbxThuoc.ForeColor = System.Drawing.Color.Black;
             this.cbxThuoc.FormattingEnabled = true;
-            this.cbxThuoc.Location = new System.Drawing.Point(144, 19);
+            this.cbxThuoc.Location = new System.Drawing.Point(129, 19);
             this.cbxThuoc.Name = "cbxThuoc";
-            this.cbxThuoc.Size = new System.Drawing.Size(145, 28);
+            this.cbxThuoc.Size = new System.Drawing.Size(245, 28);
             this.cbxThuoc.TabIndex = 9;
             this.cbxThuoc.SelectedIndexChanged += new System.EventHandler(this.cbxThuoc_SelectedIndexChanged);
             // 
@@ -160,7 +161,7 @@
             this.lblThongBao.BackColor = System.Drawing.Color.White;
             this.lblThongBao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThongBao.ForeColor = System.Drawing.Color.Black;
-            this.lblThongBao.Location = new System.Drawing.Point(140, 264);
+            this.lblThongBao.Location = new System.Drawing.Point(65, 244);
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(14, 20);
             this.lblThongBao.TabIndex = 17;
@@ -173,7 +174,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.CancelButton = this.btnThoat;
-            this.ClientSize = new System.Drawing.Size(567, 366);
+            this.ClientSize = new System.Drawing.Size(435, 321);
             this.Controls.Add(this.lblThongBao);
             this.Controls.Add(this.txtDonVi);
             this.Controls.Add(this.label4);
@@ -187,7 +188,9 @@
             this.Controls.Add(this.btnThem);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "frmThemToaThuoc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm toa thuốc";

@@ -43,7 +43,7 @@ namespace QLPhongMach
                         MessageBox.Show("Đổi mật khẩu thành công");
                         PhanQuyen.ChucVu = "";
                         PhanQuyen.TenDangNhap = "";
-                        frmMain f = new frmMain();
+                        FRMMAINMENU f = new FRMMAINMENU();
                         f.OnOff(this.ParentForm);
                         this.Close();
                     }
@@ -82,7 +82,7 @@ namespace QLPhongMach
                         MessageBox.Show("Đổi mật khẩu thành công");
                         PhanQuyen.ChucVu = "";
                         PhanQuyen.TenDangNhap = "";
-                        frmMain f = new frmMain();
+                        FRMMAINMENU f = new FRMMAINMENU();
                         f.OnOff(this.ParentForm);
                         this.Close();
                     }
