@@ -21,3 +21,4 @@ E:\GITHUB\QL_PhongMach\NEW PROJECT\SOURCE CODE\QLPhongMach\obj\Debug\QLPhongMach
 E:\GITHUB\QL_PhongMach\NEW PROJECT\SOURCE CODE\QLPhongMach\obj\Debug\QLPhongMach.pdb
 E:\GITHUB\QL_PhongMach\NEW PROJECT\SOURCE CODE\QLPhongMach\obj\Debug\QLPhongMach.FRMMAINMENU.resources
 E:\GITHUB\QL_PhongMach\NEW PROJECT\SOURCE CODE\QLPhongMach\obj\Debug\QLPhongMach.frmAbout.resources
+E:\GITHUB\QL_PhongMach\NEW PROJECT\SOURCE CODE\QLPhongMach\obj\Debug\QLPhongMach.csprojResolveAssemblyReference.cache
